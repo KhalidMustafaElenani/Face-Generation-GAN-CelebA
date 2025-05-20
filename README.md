@@ -106,22 +106,22 @@ dataset = dataset.map(lambda x: x / 255.0)
 
 ## Visualizing Sample Data
 <p align="center">
-  <img src="Sample input dataset.png" width="500"/>
+  <img src="Sample input dataset.png" width="800"/>
 </p>
 
 ## Discriminator Model
 <p align="center">
-  <img src="Discriminator Model.png" width="500"/>
+  <img src="Discriminator Model.png" width="600"/>
 </p>
 
 ## Generator Model
 <p align="center">
-  <img src="Generator Model.png" width="500"/>
+  <img src="Generator Model.png" width="600"/>
 </p>
 
 ## GANs Model Combination
 <p align="center">
-  <img src="Model overall.png" width="500"/>
+  <img src="Model overall.png" width="600"/>
 </p>
 
 ## Training and Visualizing
@@ -132,8 +132,9 @@ Loss metrics for both models are tracked to ensure stable convergence and to det
 
 ## Results and Insights
 <p align="center">
-  <img src="generator accuracy per epoch.png" width="500"/>
+  <img src="generator accuracy per epoch.png" width="800"/>
 </p>
+
 - The trained GAN effectively learned to generate realistic 32x32 RGB face images from the CelebA dataset. 
 - During training, the discriminator and generator losses and accuracies show balanced improvements, indicating stable training progress.
 - For example, at epoch 9 and batch 1583, the training metrics were:
@@ -144,7 +145,8 @@ Loss metrics for both models are tracked to ensure stable convergence and to det
 - This balance suggests effective adversarial training, resulting in high-quality generated face images. Future work can build on this foundation by increasing image resolution or refining model architectures.
 
 ## Conclusion
-- This project successfully implemented a GAN model that can generate realistic face images using the CelebA dataset. It serves as a foundational step in understanding generative modeling with deep learning.
+- This project successfully implemented a GAN model that can generate realistic face images using the CelebA dataset.
+- It serves as a foundational step in understanding generative modeling with deep learning.
 - However, due to the limited image resolution and modest training duration, the results can be further enhanced by:
   - Increasing image size (e.g., 64x64 or 128x128)
   - Using deeper architectures like DCGAN or StyleGAN
