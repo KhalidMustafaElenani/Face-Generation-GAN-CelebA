@@ -131,6 +131,10 @@ During training, the GAN model alternates between optimizing the discriminator a
 Loss metrics for both models are tracked to ensure stable convergence and to detect potential issues like mode collapse.
 
 ## Results and Insights
+<p align="center">
+  <img src="Progression.png" width="900"/>
+</p>
+
 - The trained GAN effectively learned to generate realistic 32x32 RGB face images from the CelebA dataset. 
 - During training, the discriminator and generator losses and accuracies show balanced improvements, indicating stable training progress.
 - For example, at epoch 9 and batch 1583, the training metrics were:
