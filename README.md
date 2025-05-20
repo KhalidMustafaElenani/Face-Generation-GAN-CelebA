@@ -14,7 +14,7 @@
 ![License](https://img.shields.io/badge/license%20-%20MIT%20-%20darkblue?style=plastic)
 
 <p align="center">
-  <img src="GANs.png" width="500"/>
+  <img src="GANs.png" width="800"/>
 </p>
 
 ## Introduction
@@ -28,9 +28,9 @@ This project demonstrates the creation of realistic human faces using Generative
 3. [Environment Setup](#environment-setup)  
 4. [Dataset](#dataset)  
 5. [Data Processing](#data-processing)  
-6. [Visualizing Sample Data](#Visualizing-Sample-Data)  
-7. [Discriminator Model](#discriminator-model-initialization)  
-8. [Generator Model](#generator-model-initialization)  
+6. [Visualizing Sample Data](#visualizing-sample-data)  
+7. [Discriminator Model](#discriminator-model)  
+8. [Generator Model](#generator-model)  
 9. [GANs Model Combination](#gans-model-combination)  
 10. [Training and Visualizing](#training-and-visualizing)  
 11. [Results and Insights](#results-and-insights)  
@@ -96,7 +96,7 @@ drive.mount("/content/drive", force_remount=True)
 - These attributes include features like Smiling, Male, Eyeglasses, Bald, and Wavy_Hair, among others. The dataset is available for download from Kaggle.
 - You can download it from [this link]([https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset))
 
-## Data Preprocessing
+## Data Processing
 -  In this project, the primary preprocessing step applied to the CelebA dataset images is normalization.
 -  Each image pixel value is scaled from the original [0, 255] range to the normalized range [-1, 1], which helps stabilize and speed up the GAN training.
 ```bash
