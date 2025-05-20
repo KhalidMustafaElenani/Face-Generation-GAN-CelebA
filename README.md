@@ -132,9 +132,8 @@ Loss metrics for both models are tracked to ensure stable convergence and to det
 
 ## Results and Insights
 <p align="center">
-  <img src="Progression.png" width="900"/>
+  <img src="generator accuracy per epoch.png" width="500"/>
 </p>
-
 - The trained GAN effectively learned to generate realistic 32x32 RGB face images from the CelebA dataset. 
 - During training, the discriminator and generator losses and accuracies show balanced improvements, indicating stable training progress.
 - For example, at epoch 9 and batch 1583, the training metrics were:
@@ -151,7 +150,7 @@ Loss metrics for both models are tracked to ensure stable convergence and to det
   - Using deeper architectures like DCGAN or StyleGAN
   - Accessing more computational power (GPUs/TPUs) for longer and higher-capacity training
 - With these improvements, the quality and realism of generated images can be significantly increased.
-  
+
 ## License
 - This project is licensed under the MIT License - see the LICENSE file for details.
 - Feel free to adjust any details to better fit your specific implementation or project structure.
